@@ -3,7 +3,7 @@ import { router } from "expo-router";
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 import usePedometer from "../../hooks/usePedomete";
 
-export default function index() {
+export default function Home() {
   usePedometer();
 
   const { steps, dailyGoal } = useStore();
