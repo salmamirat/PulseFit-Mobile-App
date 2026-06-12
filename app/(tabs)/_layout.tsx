@@ -23,17 +23,17 @@ export default function TabLayout() {
           ),
         }}
       />
-
-      <Tabs.Screen
-        name="sessions"
+      
+    
+     <Tabs.Screen
+        name="session"
         options={{
-          title: "Session",
+          title: 'session',
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="fitness" size={size} color={color} />
           ),
         }}
       />
-
       <Tabs.Screen
         name="profile"
         options={{
